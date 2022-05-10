@@ -78,6 +78,11 @@ li {
   height: 1600px;
   margin-top: 100px;
 }
+.centernew {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+   }
 
 .section-title {
   border-bottom: 2px solid #cbcecf;

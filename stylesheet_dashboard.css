@@ -24,6 +24,11 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 100%;}
+  .centernew {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+     }
 
   .imgcenter_new{
     float: left;
