@@ -1,0 +1,171 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  background-color: #f1f5f5;
+  color: rgb(83, 95, 107);
+  height: 100px;
+  width:2000px;
+  padding-top: 0px;
+  border-bottom: 2px solid #616e75;
+}
+.center {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+   }
+.imgcenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+ }
+.sitelogo{
+  float: left;
+  height: 90px;  
+  background-color:#32617a;
+  margin: 1px 10px;
+  
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 17px 40px;
+ 
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+
+  font-size: 24px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.header-list li:hover{
+  background-color:#dbdcdd;
+  color: #6a6b6b;
+  border-bottom: 2px solid #616e75;
+}
+
+.main {
+  padding:20px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 1600px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #cbcecf;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+ 
+  color: #6a6b6b;
+}
+a{
+  color: rgb(83, 95, 107);
+}
+
+.contents-item {
+  
+  float: left;
+  margin-right: 40px;
+  width: 200px;
+  height:300px;
+  padding: 10px;
+  border: 2px solid #9ca1a1;
+  margin-bottom: 50px;
+ }
+ .contents-item:hover{
+  box-shadow: 10px 10px 8px #888888;
+ }
+
+.contents-item p {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #506969;
+}
+h4{
+  font-size: 16px;
+  margin-top: 30px;
+  color: #6a6b6b;
+  text-decoration: none;
+}
+h5{font-size: 16px;
+margin-top: 30px;
+color: #6a6b6b;
+text-decoration: none;
+}
+
+
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Add CSS for <input> and <textarea> tags */
+input, textarea{
+   width: 400px;
+  margin-top: 10px;
+ margin-bottom: 30px;
+ padding: 20px;
+font-size: 18px;
+border: 1px solid #dee7ec;
+}
+
+
+/* Add CSS for contact-submit */
+
+.contact-submit{
+  background-color: #dee7ec;
+  color:#889eab;
+}
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  
+}
+
+.footer-list {
+  float: right;
+ 
+}
+.footer-list1{
+  float: center;
+}
+.footer-list li {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,234 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #f1f5f5;
+    color: rgb(83, 95, 107);
+    height: 90px;
+    border-bottom: 2px solid #616e75;
+  }
+  .center {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+     }
+  .imgcenter{
+      float:center;
+    display: block;
+        width: 70%;
+    padding-left:40px;
+   }
+   .imgsize{  
+     width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-bottom:30px;
+ }
+
+  .sitelogo{
+    float: left;
+    height: 90px;  
+    background-color:#32617a;
+    margin: 1px 10px;
+    
+  }
+  .contact{
+    float: center;
+    width: 400px;
+    margin-left: 10px;
+    border-left: 50px;
+    padding-left: 50px;
+   font-size: 18px;
+  
+ }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 17px 40px;
+    border-bottom: 2px solid #dee7ec;
+  }
+  
+  .header-list li {
+    display: inline;
+    padding: 1px 2px;
+    margin: 1px 1px;
+    font-size: 24px;
+    color: rgb(83, 95, 107);
+    
+  }
+  .header-list li:hover{
+    background-color:#dbdcdd;
+    color: #262727;;
+    margin: 0px;
+        border-bottom: 2px solid #1e1e1f;    
+  }
+  
+  .main {
+    padding:20px 40px;
+    height: 440px;
+  }
+   
+  .copy-container h1 {
+    font-size: 140px;
+  }
+  .contact-submit{
+    background-color:#dee7ec;
+    color:#889eab;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  
+  .contents {
+      width:70%;
+      float:right;
+    height: 420px;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+   
+    color: #6a6b6b;
+  }
+  a{
+    color: rgb(83, 95, 107);
+  }
+  
+  .contents-item {
+    
+    float: left;
+    margin-right: 40px;
+    width: 200px;
+    height:100px;
+    padding: 10px;
+  
+    margin-bottom: 30px;
+   }
+   .contentitems {
+    width: 150px;
+    height:50px;
+      margin-right: 40px;
+    margin-left :10px;
+     padding: 10px;
+     
+    margin-bottom: 30px;
+      border: 2px solid #2e4f6b;
+   }
+   .contain{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid rgb(250, 248, 248);
+    margin: 10px;
+    float:center;
+    }
+    
+   .house-item {
+    width: 280px;
+    padding: 10px;
+    border: 2px solid rgb(250, 248, 248);
+    margin: 10px;
+  }
+  
+  .house-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+   .contentitems p {
+    float :right;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+  color: #506969;
+}
+  .corecourses{
+    width: 20%;
+    float:left;
+    height:400px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 0px;
+     padding:5px;
+      
+  }
+  
+  
+ 
+  h4{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #6a6b6b;
+    text-decoration: none;
+  }
+  h5{font-size: 24px;
+  margin-top: 30px;
+  color: #6a6b6b;
+  text-decoration: none;
+  }  
+ h7{font-size: 24px;
+        color: #6a6b6b;
+   
+    float:right;
+   }
+  .contact-form {
+    padding-top: 100px;
+  }
+  
+  /* Add CSS for <input> and <textarea> tags */
+  input, textarea{
+     width: 400px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  
+  /* Add CSS for contact-submit */
+  
+  .contact-submit{
+    background-color: #dee7ec;
+    color:#889eab;
+  }
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+    
+  }
+  
+  .footer-list {
+    float: right;
+   
+  }
+  .footer-list1{
+    float: center;
+  }
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+  
